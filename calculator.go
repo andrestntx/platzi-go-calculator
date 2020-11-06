@@ -35,7 +35,7 @@ func parserOperator(input string) int {
 	return operator
 }
 
-func readInput() string {
+func ReadInput() string {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 

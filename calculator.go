@@ -2,7 +2,6 @@ package mycalculator
 
 import (
 	"bufio"
-	"fmt"
 	"os"
 	"strconv"
 	"strings"
@@ -40,13 +39,4 @@ func ReadInput() string {
 	scanner.Scan()
 
 	return scanner.Text()
-}
-
-func main() {
-	input := readInput()
-	operator := readInput()
-
-	c := calc{}
-
-	fmt.Println(c.operate(input, operator))
 }
